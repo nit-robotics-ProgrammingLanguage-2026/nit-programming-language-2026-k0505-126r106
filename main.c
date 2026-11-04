@@ -10,7 +10,7 @@ int main(void)
     }
     if (input < 0 || input >=10)
     {
-        printf("OK");
+        printf("OK"); 
     }
     return 0;
 }
