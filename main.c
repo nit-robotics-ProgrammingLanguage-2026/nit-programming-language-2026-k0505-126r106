@@ -6,11 +6,11 @@ int main(void)
     scanf("%d", &input);
     if (input >= 0 && input < 10)
     {
-        printf("NG");
+        printf("OK");
     }
     if (input < 0 || input >=10)
     {
-        printf("OK"); 
+        printf("NG"); 
     }
     return 0;
 }
